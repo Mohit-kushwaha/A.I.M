@@ -12,7 +12,7 @@ const Cards = () =>
                 <div className="relative h-[90%]  w-[70%] overflow-hidden rounded-[50px]">
                     <img className="w-full cursor-pointer  h-[450px] object-fit" src="https://iforum-de.c.hihonor.com/uk_data/images/2018/6/23/0aa4c66b6bf54602689a3bdb4abeb17a.jpg" alt="Your Image" />
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-300">
-                        <Link to='https://mood-maker-vo6m.onrender.com/' >
+                        <Link to='http://localhost:4000' >
                             <div className="absolute cursor-pointer  inset-0 flex flex-col items-center justify-center" >
                                 <h3 className="text-white text-xl font-semibold mb-2">Mood Maker</h3>
                                 <p className="text-white text-sm">Create virtual environments with ease using our tool</p>
@@ -25,7 +25,7 @@ const Cards = () =>
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-300">
                         <Link to='https://txt-handwriting.onrender.com/' target="_blank">
                             <div className="absolute cursor-pointer  inset-0 flex flex-col items-center justify-center" >
-                                <h3 className="text-white text-xl font-semibold mb-2">Hand Helper</h3>
+                                <h3 className="text-white text-xl font-semibold mb-2">Hand Recognition</h3>
                                 <p className="text-white text-sm">Convert typed text to handwritten notes with ease using our tool</p>
                             </div>
                         </Link>

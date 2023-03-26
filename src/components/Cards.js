@@ -23,7 +23,7 @@ const Cards = () =>
                 <div className="relative h-[90%]  w-[70%] overflow-hidden rounded-[50px]">
                     <img className="w-full cursor-pointer h-[450px] object-fit" src="https://www.wikihow.com/images/thumb/e/ea/Start-an-Assignment-Step-5-Version-2.jpg/v4-460px-Start-an-Assignment-Step-5-Version-2.jpg" alt="Your Image" />
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-300">
-                        <Link to='https://txt-handwriting.onrender.com/' target="_blank">
+                        <Link to='https://txt-handwriting.onrender.com/'>
                             <div className="absolute cursor-pointer  inset-0 flex flex-col items-center justify-center" >
                                 <h3 className="text-white text-xl font-semibold mb-2">Hand Recognition</h3>
                                 <p className="text-white text-sm">Convert typed text to handwritten notes with ease using our tool</p>

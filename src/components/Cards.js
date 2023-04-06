@@ -12,7 +12,7 @@ const Cards = () =>
                 <div className="relative h-[90%]  w-[70%] overflow-hidden rounded-[50px]">
                     <img className="w-full cursor-pointer  h-[450px] object-fit" src="https://iforum-de.c.hihonor.com/uk_data/images/2018/6/23/0aa4c66b6bf54602689a3bdb4abeb17a.jpg" alt="Your Image" />
                     <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-300">
-                        <Link to='http://lovi-env.com' >
+                        <Link to='https://www.lofi-env.com/' >
                             <div className="absolute cursor-pointer  inset-0 flex flex-col items-center justify-center" >
                                 <h3 className="text-white text-xl font-semibold mb-2">Lofi Env</h3>
                                 <p className="text-white text-sm">Create virtual environments with ease using our tool</p>
